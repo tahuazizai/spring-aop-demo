@@ -15,6 +15,7 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <arming-center>1.0.0-SNAPSHOT</arming-center>
     </properties>
     <dependencies>
         <dependency>
@@ -40,6 +41,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.leelen.cloud</groupId>
+            <artifactId>iot-arming-center-api</artifactId>
+            <version>${arming-center}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
