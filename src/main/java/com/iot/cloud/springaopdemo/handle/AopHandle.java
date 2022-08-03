@@ -15,6 +15,6 @@ import org.springframework.stereotype.Component;
 public class AopHandle {
     @DistributeLock(lockName = "123")
     public int handle(String name) {
-       throw new RuntimeException("异常");
+       return 123;
     }
 }
