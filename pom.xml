@@ -63,6 +63,11 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.amashchenko.maven.plugin</groupId>
+                <artifactId>gitflow-maven-plugin</artifactId>
+                <version>1.18.0</version>
+            </plugin>
         </plugins>
     </build>
 
