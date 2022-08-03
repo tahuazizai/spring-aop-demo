@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.iot.cloud</groupId>
     <artifactId>spring-aop-demo</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>spring-aop-demo</name>
     <description>Demo project for Spring Boot</description>
     <properties>
